@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<?php
+$n = 5;
+for($i = 1; $i<$n; $i ++)
+{
+    $arr[$i] = $i*$i;
+
+}
+print_r (array($arr));
+
+?>
+</body>
+</html>
+
+
